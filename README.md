@@ -1,41 +1,21 @@
 # Elevator Parking Place Problem Analysis
 
-## Description
-This project focuses on analyzing elevator movement data to solve the **"Parking Place Problem"** for elevators. The goal is to understand the patterns in elevator usage, identify frequently used parking floors, and analyze inefficiencies during idle times. Using **Python** and **Plotly**, the project performs data analysis on elevator movements between floors, detecting periods of inactivity, and providing visual insights into the most frequent parking floors.
+This project focuses on analyzing elevator movement data to solve the "Parking Place Problem" for elevators. The analysis provides insights into elevator performance, movement patterns, and potential inefficiencies in parking locations.
 
-### Key Features:
-- **Inactivity Detection**: Identifies periods when the elevator is idle and determines the most used parking floors.
-- **Visualizations**: Generates various visual insights, including heatmaps and bar charts, to display elevator movement patterns and parking behavior.
-- **Data Filtering**: Filters out invalid or irrelevant elevator movement data for cleaner and more efficient analysis.
+## Visualizations
 
-## Project Structure
-Elevator-Parking-Place-Problem-Analysis/
-│
-├── code/
-│   ├── Elevator Parking Analysis.ipynb    # Jupyter notebook containing the analysis code
-│   └── (other Python scripts if any)
-│
-├── data/                                  # Folder for datasets (not uploaded to GitHub)
-│   └── (your datasets will be stored here)
-│
-├── graphs/                                # Generated visualizations
-│   ├── combined_bar_plot.html             # Bar plot comparing elevator parking patterns
-│   ├── elev_1_cuml_rides_parking_floor.html   # Parking patterns for Elevator 1
-│   ├── elev_2_cuml_rides_parking_floor.html   # Parking patterns for Elevator 2
-│   └── (other HTML graphs)
-│
-├── images/                                # Related images
-│   └── (images showcasing the analysis results or documentation)
-│
-├── .gitignore                             # Ignores sensitive files (e.g., datasets)
-├── README.md                              # This README file
-└── requirements.txt                       # List of required Python packages
+You can view the interactive visualizations below:
 
-## Installation and Setup
+1. [Elevator 1 - Cumulative Rides Parking Floor](https://tahasakr1.github.io/Elevator-Parking-Place-Problem-Analysis/elev_1_cuml_rides_parking_floor_3.html)
+2. [Elevator 1 - Frequency Analysis](https://tahasakr1.github.io/Elevator-Parking-Place-Problem-Analysis/elev_1_freq_analysis_parking_floor_3.html)
+3. [Elevator 2 - Cumulative Rides Parking Floor](https://tahasakr1.github.io/Elevator-Parking-Place-Problem-Analysis/elev_2_cuml_rides_parking_floor_1.html)
+4. [Elevator 2 - Frequency Analysis](https://tahasakr1.github.io/Elevator-Parking-Place-Problem-Analysis/elev_2_freq_analysis_parking_floor_1.html)
 
-To run this project locally, follow these steps:
+## Project Overview
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/TahaSakr1/Elevator-Parking-Place-Problem-Analysis.git
-   cd Elevator-Parking-Place-Problem-Analysis
+This project uses Python and Plotly to analyze elevator journeys, tracking movements between floors, detecting periods of inactivity, and identifying the most frequently used parking floors when elevators are idle.
+
+---
+
+**Instructions**: Click the links above to explore interactive visualizations of the elevator data.
+
