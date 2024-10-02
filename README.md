@@ -37,5 +37,5 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/Elevator-Parking-Place-Problem-Analysis.git
+   git clone https://github.com/TahaSakr1/Elevator-Parking-Place-Problem-Analysis.git
    cd Elevator-Parking-Place-Problem-Analysis
